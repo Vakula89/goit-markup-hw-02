@@ -1,3 +1,8 @@
+:root {
+  --hover-color: #2196f3;
+  --accent-color: #212121;
+}
+
 body {
   background-color: #e5e5e5;
   color: #757575;
@@ -13,20 +18,20 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
-  color: #2196f3;
+  color: var(--hover-color);
 }
 ul {
   list-style: none;
 }
 .link-header {
-  color: #212121;
+  color: var(--accent-color);
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14;
 }
 .link-header:hover,
 .link-header:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .link-info {
   color: #757575;
@@ -36,7 +41,7 @@ ul {
 }
 .link-info:hover,
 .link-info:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .main-banner {
   background: #2f303a;
@@ -48,13 +53,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .button {
   cursor: pointer;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--hover-color);
   font-weight: 700;
   font-size: 16px;
   align-items: center;
@@ -62,7 +66,7 @@ ul {
   line-height: 1, 88;
 }
 .text-title {
-  color: #212121;
+  color: var(--accent-color);
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -79,20 +83,20 @@ ul {
   font-size: 36px;
   line-height: 1, 17;
   text-align: center;
-  color: #212121;
+  color: var(--accent-color);
 }
 .text-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 17;
   text-align: center;
-  color: #212121;
+  color: var(--accent-color);
 }
 .text-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 19;
-  color: #212121;
+  color: var(--accent-color);
 }
 .text-profession {
   font-weight: 400;
@@ -109,7 +113,7 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .link-adress > a {
   font-family: "Roboto";
@@ -121,7 +125,7 @@ footer {
 }
 .link-adress > a:hover,
 .link-adress > a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .link-mail > a,
 .link-tel > a {
@@ -134,9 +138,9 @@ footer {
 }
 .link-mail > a:hover,
 .link-mail > a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
 .link-tel > a:hover,
 .link-tel > a:focus {
-  color: #2196f3;
+  color: var(--hover-color);
 }
