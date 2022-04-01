@@ -2,18 +2,17 @@ body {
   background-color: #e5e5e5;
   color: #757575;
 
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 .page-header {
   background-color: #ffffff;
 }
-.text-logo-header > a {
+.text-logo-header {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   color: #2196f3;
 }
 ul {
@@ -22,6 +21,8 @@ ul {
 .link-header {
   color: #212121;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
 }
 .link-header:hover,
 .link-header:focus {
@@ -30,9 +31,11 @@ ul {
 .link-info {
   color: #757575;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
 }
 .link-info:hover,
-.link-header:focus {
+.link-info:focus {
   color: #2196f3;
 }
 .main-banner {
@@ -41,7 +44,7 @@ ul {
 .main-text {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1, 36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -56,43 +59,45 @@ ul {
   font-size: 16px;
   align-items: center;
   text-align: center;
+  line-height: 1, 88;
 }
 .text-title {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
+  line-height: 1, 14;
 }
 .text-description {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 71;
 }
 .text-about-us {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1, 17;
   text-align: center;
   color: #212121;
 }
 .text-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1, 17;
   text-align: center;
   color: #212121;
 }
 .text-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 19;
   color: #212121;
 }
 .text-profession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1, 19;
   color: #757575;
 }
 footer {
@@ -103,7 +108,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
   color: #2196f3;
 }
 .link-adress > a {
@@ -111,8 +116,12 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 17;
   color: #ffffff;
+}
+.link-adress > a:hover,
+.link-adress > a:focus {
+  color: #2196f3;
 }
 .link-mail > a,
 .link-tel > a {
@@ -120,6 +129,14 @@ footer {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 17;
   color: rgba(255, 255, 255, 0.6);
+}
+.link-mail > a:hover,
+.link-mail > a:focus {
+  color: #2196f3;
+}
+.link-tel > a:hover,
+.link-tel > a:focus {
+  color: #2196f3;
 }
