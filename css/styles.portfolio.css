@@ -1,0 +1,87 @@
+:root {
+  --hover-color: #2196f3;
+  --accent-color: #212121;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+
+  font-family: "Roboto", sans-serif;
+}
+.page-header {
+  background-color: #ffffff;
+}
+.text-logo-header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: var(--hover-color);
+}
+ul {
+  list-style: none;
+}
+.link-header {
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
+}
+.link-header:hover,
+.link-header:focus {
+  color: var(--hover-color);
+}
+.link-info {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
+}
+.link-info:hover,
+.link-info:focus {
+  color: var(--hover-color);
+}
+.button {
+}
+footer {
+  background: #2f303a;
+}
+.text-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1, 19;
+  color: var(--hover-color);
+}
+.link-adress > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 17;
+  color: #ffffff;
+}
+.link-adress > a:hover,
+.link-adress > a:focus {
+  color: var(--hover-color);
+}
+.link-mail > a,
+.link-tel > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 17;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-mail > a:hover,
+.link-mail > a:focus {
+  color: var(--hover-color);
+}
+.link-tel > a:hover,
+.link-tel > a:focus {
+  color: var(--hover-color);
+}
