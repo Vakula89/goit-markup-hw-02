@@ -1,6 +1,7 @@
 :root {
   --hover-color: #2196f3;
   --accent-color: #212121;
+  --wite-color: #ffffff;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--wite-color);
 }
 .text-logo-header {
   font-family: "Raleway";
@@ -53,7 +54,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 .button {
   cursor: pointer;
@@ -121,7 +122,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 17;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 .link-adress > a:hover,
 .link-adress > a:focus {

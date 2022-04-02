@@ -45,6 +45,7 @@ ul {
   color: var(--hover-color);
 }
 .button {
+  cursor: pointer;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
