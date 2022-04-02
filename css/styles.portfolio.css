@@ -1,6 +1,7 @@
 :root {
   --hover-color: #2196f3;
   --accent-color: #212121;
+  --wite-color: #ffffff;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .page-header {
-  background-color: #ffffff;
+  background-color: var(--wite-color);
 }
 .text-logo-header {
   font-family: "Raleway";
@@ -44,6 +45,30 @@ ul {
   color: var(--hover-color);
 }
 .button {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 63;
+  text-align: center;
+  color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--hover-color);
+  color: var(--wite-color);
+}
+.text-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--accent-color);
+  background: var(--wite-color);
+}
+.text-main {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 88;
+  background: var(--wite-color);
 }
 footer {
   background: #2f303a;
@@ -57,12 +82,11 @@ footer {
   color: var(--hover-color);
 }
 .link-adress > a {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 17;
-  color: #ffffff;
+  color: var(--wite-color);
 }
 .link-adress > a:hover,
 .link-adress > a:focus {
@@ -70,7 +94,6 @@ footer {
 }
 .link-mail > a,
 .link-tel > a {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
