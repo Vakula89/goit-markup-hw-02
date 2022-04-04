@@ -24,6 +24,9 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .link-header {
   color: var(--accent-color);
   font-size: 14px;
@@ -33,6 +36,12 @@ ul {
 .link-header:hover,
 .link-header:focus {
   color: var(--hover-color);
+}
+.current {
+  color: var(--hover-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14;
 }
 .link-info {
   color: #757575;
@@ -85,6 +94,9 @@ ul {
   line-height: 1, 17;
   text-align: center;
   color: var(--accent-color);
+}
+.team {
+  background-color: #f5f4fa;
 }
 .text-team {
   font-weight: 700;
