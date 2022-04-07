@@ -5,9 +5,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
-  color: #757575;
-
+  background-color: var(--wite-color);
   font-family: "Roboto", sans-serif;
 }
 .page-header {
@@ -19,8 +17,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
+  color: var(--accent-color);
+}
+.web-header {
   color: var(--hover-color);
 }
+
 ul {
   list-style: none;
 }
@@ -75,6 +77,10 @@ a {
   text-align: center;
   line-height: 1, 88;
 }
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
 .text-title {
   color: var(--accent-color);
   font-weight: 700;
@@ -110,12 +116,14 @@ a {
   font-size: 16px;
   line-height: 1, 19;
   color: var(--accent-color);
+  text-align: center;
 }
 .text-profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 19;
   color: #757575;
+  text-align: center;
 }
 footer {
   background: #2f303a;
@@ -126,6 +134,9 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
+  color: var(--wite-color);
+}
+.web-footer {
   color: var(--hover-color);
 }
 .link-adress > a {

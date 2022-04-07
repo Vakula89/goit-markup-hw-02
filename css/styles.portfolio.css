@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--wite-color);
   color: #757575;
 
   font-family: "Roboto", sans-serif;
@@ -19,6 +19,9 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
+  color: var(--accent-color);
+}
+.web-header {
   color: var(--hover-color);
 }
 ul {
@@ -90,6 +93,7 @@ a {
   font-size: 16px;
   line-height: 1, 88;
   background: var(--wite-color);
+  color: #757575;
 }
 footer {
   background: #2f303a;
@@ -100,6 +104,9 @@ footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
+  color: var(--wite-color);
+}
+.web-footer {
   color: var(--hover-color);
 }
 .link-adress > a {
